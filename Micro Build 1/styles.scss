@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+// html {
+//     margin: 0;
+// }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f5f8;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background: #fff;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    // margin: auto;
+
+    .nav-center {
+        width: 90vw;
+        max-width: 620px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    h4{
+        // margin-bottom : auto;
+        font-size: 1.2rem;
+        letter-spacing: 0.12rem;
+        color: hsl(205, 78%, 60%);
+    }
+
+    .nav-links {
+        display: flex;
+        // justify-content: space-evenly;
+    }
+
+    a{
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 1rem;
+        color: hsl(205, 86%, 17%);
+        margin-right: 1rem;
+        text-decoration: none;
+
+        
+        &:hover {
+            color: hsl(205, 78%, 60%);
+        }
+    }
+}
+
+main {
+    min-height: calc(100vh - 4rem);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+
+    h2 {
+        background: #222;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 2.5rem;
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+    }
+}
+
+.colour {
+    color:hsl(205, 78%, 60%);
+}
+
+
+.btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    padding: 0.375rem 0.75rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    transition: all 0.3s linear;
+
+
+    &:hover {
+        color: #fff;
+        background: #222;
+    }
+}
+
+.btn-hero {
+    font-size: 1rem;
+    padding: 0.75rem 1.75rem;
+}
+
