@@ -4,7 +4,7 @@ const btn = document.getElementById('btn');
 const colour = document.querySelector(".colour");
 
 btn.addEventListener("click", function() {
-    randomNumber = getRandomNumber(11)
+    randomNumber = getRandomNumber(10)
     document.body.style.backgroundColor = colours[randomNumber];
     // console.log(getRandomNumber(4));
     colour.textContent = colours[randomNumber];
